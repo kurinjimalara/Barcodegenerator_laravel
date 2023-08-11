@@ -64,3 +64,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Barcode name  and their types
+
+Code-128 = C128
+Code-11 =CODE11
+Code-2of5 Interleaved=I25
+Code-39= C39
+Code-39 Full ASCII= C39E
+Code-93 = C39
+MSI=MSI
+Pharmacode One-Track=PHARMA
+Pharmacode Two-Track=PHARMA2T
+GSI-128=GS1-128
+EAN-8=EAN8
+EAN-13=EAN13
+Ean-14=EAN14
+UPC-A=UPCA
+UPC-E=UPCE
+
+
+

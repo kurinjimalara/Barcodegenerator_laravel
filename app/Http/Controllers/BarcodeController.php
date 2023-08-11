@@ -16,9 +16,9 @@ class BarcodeController extends Controller
         $data = $request->productcode;
         $type = $request->type;
         // Here we have created barcode based on barcode data and barcode type
-        $qrCode = \DNS1D::getBarcodePNG( $data,$type );
         // For certain types of barcode we have to use DNS1D
         // $qrCode = \DNS1D::getBarcodePNG( $data,$type );
+        $qrCode = \DNS1D::getBarcodePNG( $data,$type );
         // Here we have stored the image of created barcode in storage->app->public folder
         $storage_status= \Storage::disk('public')->put(time().'.png',base64_decode(\DNS1D::getBarcodePNG($data,$type )));
         $hostname = env("APP_URL"); 
