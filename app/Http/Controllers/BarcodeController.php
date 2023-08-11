@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Storage;
 
 class BarcodeController extends Controller
 {
+    // save barcode image
     function post_data(Request $request)
     {
 
